@@ -7,6 +7,7 @@ proyecto de automatización Serenity + Screenplay
 Realizado en eclipse IDE oxigen
 gradle v6.0
 jdk v1.8
+Ejecucion en Navegador Google Chrome:ChromeDriver
 IMPORTANTE: Cuando descarguen y descompriman el .zip, renombrar carpeta "co.com.proyectobase.techsolve2020" 
 
 Pasos para su correcto funcionamiento del putilizacion:
