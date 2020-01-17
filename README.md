@@ -1,16 +1,17 @@
-# Prueba-Tech-Solve-2020-v2
+# co.com.proyectobase.techsolve2020
 proyecto de automatización Serenity + Screenplay 
 
 Realizado en eclipse IDE oxigen
 gradle v6.0
 jdk v1.8
+IMPORTANTE: Cuando descarguen y descompriman el .zip, renombrar carpeta "co.com.proyectobase.techsolve2020" 
 
 Pasos para su correcto funcionamiento del putilizacion:
 -una vez descargado el proyecto, establescalo en una ruta e inicie su IDE(eclipse oxigen/neon o IntelliJ IDEA).
-Importar como projecto gradle existente en IDE:(Debe tener instalado previamente Buildship Gradle integration 3.0 (en eclipse lo puede 
-descargar desde el marketplace).
--Cucumber(Serenitybdd)
-)
+Importar como projecto gradle existente en IDE:(Debe tener instalado previamente Buildship Gradle integration 3.0 y Cucumber(Serenitybdd)
+(en eclipse lo puede descargar desde el marketplace).
+
+
 
 -El Gradle.build del proyecto se encargara de rearmar las librerias para el proyecto (tenga muy encuenta tener ya instaladas 
 las dependecias descritas en el paso anterior).
