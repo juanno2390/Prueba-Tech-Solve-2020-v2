@@ -1,0 +1,212 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and Cucumber</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="369f07a3fef515ba7daddfe035e8b4b2cd2138da91e707b29f444ee061f30295.html">Como Un Usuario</a></span>
+                > <span class="truncate-60"><a
+                    href="45df62cea92f7c39767343b3de3e8ff9c1e754cdda6b453f78f76a45cfccb197.html">Login usuario y adicion de un articulo al carrito de compras </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 17-01-2020 05:06</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Como Un Usuario </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                <pre><code>quiero ingresar a la web de compras The Ninja Store
+para agregar y quitar articulos al carrito compras o marcarlos para wish list
+</code></pre>
+
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="24450b37cdfa8b3870da5e9c95a24ed53758be7b5b35466e749c3f49d38ada7c.html">Hu2
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="773a571d092c5846a3019576b732f5fa2a9b129891c011c10cda8839a7f193e0.html">Regresion
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Login usuario y adicion de un articulo al carrito de compras
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="752a52b1c0a51f6f34a2460f6df52f9cc388169f7a4b090ace69d714c1b76065.png" title="Given Que usuarioTechSolve ingrese a la tienda virtual" width="3200"/>
+                <img src="5ba84a38d7e452ce403bc9a015cc198b9dd26e43b250f2a53269a6ea0f5450c1.png" title="usuarioTechSolve opens the The ninja store home page" width="3200"/>
+                <img src="d7c4af06e83a67d09abda2e81ce08a4a2700351ae6b13f39dab6bceab5c8cc9d.png" title="When el realiza login en la web para iniciar sesion
+| juanno3390@gmail.com | 1234 |" width="3200"/>
+                <img src="5578e6e4f1d0bc863f6e67f18a3bdce74a91c5b0ceae1b127174035f2e98dadb.png" title="usuarioTechSolve clicks on Menu que muestra las opciones de login para usuario" width="3200"/>
+                <img src="40a98e67f639bf49a43e210a962a4ea8d377480525292199d347f98b24ec14b0.png" title="usuarioTechSolve clicks on Opcion que nos llevara al formulario para inicio de sesion" width="3200"/>
+                <img src="de7cd95381cdd7d0abb16d3bf3877eb74792bb55d186a33010514f916c3e8f32.png" title="usuarioTechSolve enters 'juanno3390@gmail.com' into campo para escribir un e-mail" width="3200"/>
+                <img src="9d6c372fd6a839a349b654aa38a20d2ef20f55216e57fef83796a2c32393562d.png" title="usuarioTechSolve enters '1234' into campo para escribir el password" width="3200"/>
+                <img src="d7c4af06e83a67d09abda2e81ce08a4a2700351ae6b13f39dab6bceab5c8cc9d.png" title="usuarioTechSolve clicks on boton para realizar inicio de sesion" width="3200"/>
+                <img src="be6e3c0f7f6829cf7ce21d7526b59bc7de463be01cd1e1969dca6984bf28cc61.png" title="And el selecciona en el menu la seccion Phones &amp; PDAs  para agregar al carrito de compras un iPhone" width="3200"/>
+                <img src="4d0fc37e3424199eb4dc624b15b5b15c3ae5567e3c7a6cdcd157a67e859d6251.png" title="usuarioTechSolve clicks on Opcion que nos llevara a la lista de Phones &amp; PDAs" width="3200"/>
+                <img src="92606afd8950dad32e616b6fad1640a88db8d315d7a68215f8f76e582c748a80.png" title="usuarioTechSolve clicks on Opcion que nos llevara al detalle del Item" width="3200"/>
+                <img src="8c08cfcc8c211b2e3483b1d5c064f610bc5107af17caf3abbb802f87a4d22160.png" title="usuarioTechSolve clicks on Boton que agrega Item al carrito de compras" width="3200"/>
+                <img src="be6e3c0f7f6829cf7ce21d7526b59bc7de463be01cd1e1969dca6984bf28cc61.png" title="usuarioTechSolve clicks on Opcion que nos llevara a la lista de items agregados al Carrito de compras" width="3200"/>
+                <img src="be6e3c0f7f6829cf7ce21d7526b59bc7de463be01cd1e1969dca6984bf28cc61.png" title="Then el deberia ver en el carrito de compras su iPhone" width="3200"/>
+                <img src="be6e3c0f7f6829cf7ce21d7526b59bc7de463be01cd1e1969dca6984bf28cc61.png" title="Then agregar item a carrito de compras should be 'iPhone': <span class='success-color'>SUCCESS</span>" width="3200"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>
