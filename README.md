@@ -14,10 +14,11 @@ Pasos para su correcto funcionamiento del putilizacion:
 Importar como projecto gradle existente en IDE:(Debe tener instalado previamente Buildship Gradle integration 3.0 y Cucumber(Serenitybdd)
 (en eclipse lo puede descargar desde el marketplace).
 
-
-
 -El Gradle.build del proyecto se encargara de rearmar las librerias para el proyecto (tenga muy encuenta tener ya instaladas 
 las dependecias descritas en el paso anterior).
+
+- El Gradle.setting contiene: 
+rootProject.name = 'co.com.proyectobase.techsolve2020'
 
 Una vez todo este compilado y correcto, Para ejecutar el proyecto debe ir a la 
 clase RunnerTags.java (src->test->java->...runners->RunnerTags.java) alli dentro del archivo ejecutar 
