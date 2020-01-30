@@ -23,13 +23,13 @@ rootProject.name = 'co.com.proyectobase.techsolve2020'
 
 Una vez todo este compilado y correcto, Para ejecutar el proyecto debe ir a la 
 clase RunnerTags.java (src->test->java->...runners->RunnerTags.java) alli dentro del archivo ejecutar 
-con JUnit Test(click derecho->run as->JUnit Test). POr defecto se configura para que se ejecute todos los casos
+con JUnit Test(click derecho->run as->JUnit Test). Por defecto se configura para que se ejecute todos los casos
 pedidos en el examen como regresion.
 
 En src->test->resources->features encontrara los casos del examen descritos como Historias de Usuario(HU), ademas de la informacion
 del usuario a registrar y loguear en la plataforma.
 
-Quedo atento a cualquier inquietud, puede escribirmo al correo juanno23@hotmail.com
+Quedo atento a cualquier inquietud, puede escribirme al correo juanno23@hotmail.com
 
 
 
