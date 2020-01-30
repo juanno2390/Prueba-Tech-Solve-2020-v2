@@ -10,7 +10,7 @@ jdk v1.8
 Ejecucion en Navegador Google Chrome:ChromeDriver
 IMPORTANTE: Cuando descarguen y descompriman el .zip, renombrar carpeta "co.com.proyectobase.techsolve2020" 
 
-Pasos para su correcto funcionamiento del putilizacion:
+Pasos para su correcto funcionamiento y utilizacion:
 -una vez descargado el proyecto, establescalo en una ruta e inicie su IDE(eclipse oxigen/neon o IntelliJ IDEA).
 Importar como projecto gradle existente en IDE:(Debe tener instalado previamente Buildship Gradle integration 3.0 y Cucumber(Serenitybdd)
 (en eclipse lo puede descargar desde el marketplace).
